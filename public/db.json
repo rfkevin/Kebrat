@@ -1,0 +1,111 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Revenu"
+    },
+    {
+      "id": 2,
+      "name": "Alimentation"
+    },
+    {
+      "id": 3,
+      "name": "Habillement"
+    },
+    {
+      "name": "dwddwsaxas",
+      "id": 4
+    },
+    {
+      "name": "passe",
+      "id": 5
+    },
+    {
+      "name": "Voyage",
+      "id": 6
+    },
+    {
+      "name": "Life",
+      "id": 7
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Salaire avril 2023",
+      "date": "2023-04-01",
+      "montant": 150000,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "description": "Aide au logement",
+      "date": "2023-04-02",
+      "montant": 10000,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "description": "Courses à Carrefour",
+      "date": "2023-04-01",
+      "montant": -4000,
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "description": "McDonald's avec les copains",
+      "date": "2023-04-04",
+      "montant": -1100,
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "description": "Chaussures de sport",
+      "date": "2023-04-05",
+      "montant": -12000,
+      "categoryId": 3
+    },
+    {
+      "date": "2023-04-14",
+      "description": "beer",
+      "montant": 2000,
+      "categoryId": 2,
+      "id": 6
+    },
+    {
+      "date": "2023-04-13",
+      "description": "beer",
+      "montant": -2500,
+      "categoryId": 1,
+      "id": 7
+    },
+    {
+      "date": "2023-04-06",
+      "description": "perdu",
+      "montant": -2500,
+      "categoryId": 4,
+      "id": 8
+    },
+    {
+      "date": "2023-04-14",
+      "description": "Action course",
+      "montant": -6000,
+      "categoryId": 2,
+      "id": 9
+    },
+    {
+      "date": "2023-04-18",
+      "description": "vacance",
+      "montant": -4000,
+      "categoryId": 6,
+      "id": 10
+    },
+    {
+      "date": "2023-04-02",
+      "description": "perdu",
+      "montant": -5000,
+      "categoryId": 7,
+      "id": 11
+    }
+  ]
+}

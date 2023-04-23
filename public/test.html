@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<pre><code id="categories"></code></pre>
+		<button id="send">Envoyer</button>
+		<code id="result"></code>
+
+		<script>
+			// document.querySelector("#send").addEventListener("click", function () {
+			// 	fetch("http://localhost:3000/categories", {
+			// 		method: "POST",
+			// 		headers: { "Content-Type": "application/json" },
+			// 		body: JSON.stringify({ name: "Fast-food" }),
+			// 	})
+			// 	.then(response => {
+			// 		document.querySelector("#result").innerText = response;
+			// 	});
+			// });
+
+			fetch("http://localhost:3000/categories")
+			.then(function (response) {
+				// JSON.parse();
+				return response.json();
+			})
+			.then(function (json) {
+				console.log(json);
+				document.querySelector("#categories").innerText = JSON.stringify(json, null, "\t");
+			});
+		</script>
+	</body>
+</html>

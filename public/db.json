@@ -27,6 +27,10 @@
     {
       "name": "Life",
       "id": 7
+    },
+    {
+      "name": "Ecole",
+      "id": 8
     }
   ],
   "transactions": [
@@ -106,6 +110,13 @@
       "montant": -5000,
       "categoryId": 7,
       "id": 11
+    },
+    {
+      "date": "2023-04-13",
+      "description": "Ecolage",
+      "montant": -75000,
+      "categoryId": 8,
+      "id": 12
     }
   ]
 }
